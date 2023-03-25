@@ -10,3 +10,13 @@ const sum5grades2 = (...n) => {
     });
     return (sumGrades) / n.length; 
 }
+
+
+const sum5grades3 = (...n) => {
+    let sumGrades = 0;
+    n.map((i) => {
+        sumGrades += i;
+    });
+    return (sumGrades) / n.length; 
+}
+
